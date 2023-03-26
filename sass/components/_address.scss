@@ -1,0 +1,25 @@
+.address {
+  font-size: 14px;
+  line-height: 1.71;
+  text-align: left;
+  letter-spacing: 0.03em;
+  color: var(--button-font-color);
+  font-style: normal;
+  max-width: 246px;
+  flex-direction: row;
+  padding-bottom: 9px;
+  padding-top: 20px;
+}
+
+.address__contacts {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  line-height: 1.71;
+  text-align: left;
+  vertical-align: top;
+  letter-spacing: 0.03em;
+  font-style: normal;
+  text-decoration: none;
+  display: flex;
+  padding-bottom: 9px;
+}

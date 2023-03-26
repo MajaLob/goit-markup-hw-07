@@ -1,0 +1,44 @@
+.customers__text {
+  text-align: center;
+  margin-bottom: 50px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.customers__list {
+  display: flex;
+  gap: 30px;
+}
+
+.customers__link {
+  width: 170px;
+  height: 92px;
+  border: 1px solid currentColor;
+  color: #afb1b8;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    color: var(--selection-color);
+  }
+}
+
+.customers__icon {
+  fill: currentColor;
+
+  &:hover,
+  &:active {
+    fill: var(--background-color);
+    fill: var(--selection-color);
+  }
+}
